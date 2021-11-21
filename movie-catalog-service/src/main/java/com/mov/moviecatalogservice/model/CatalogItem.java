@@ -14,6 +14,12 @@ public class CatalogItem {
         this.releaseyear = releaseyear;
     }
 
+    public CatalogItem() {
+    }
+
+    public CatalogItem(String movieId, String name, int rating) {
+    }
+
     public String getMoviename() {
         return moviename;
     }
